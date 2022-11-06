@@ -112,7 +112,7 @@ function Projects() {
         'description': 'New Style(Masonry Layout) Social media app in React(FE) + Sanity(BE).',
         'imgPath': ShareMe,
         'githubLink': '...',
-        'demoLink': '',
+        'demoLink': 'https://shareme-kh.netlify.app',
         'isBlog': false,
         'isPersonal': true,
         'role': '',
