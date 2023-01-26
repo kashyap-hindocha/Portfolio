@@ -1,12 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.55aa5e72.css",
-    "main.js": "/static/js/main.03ef34b3.js",
+    "main.js": "/static/js/main.d9d07853.js",
     "static/js/108.1df154f4.chunk.js": "/static/js/108.1df154f4.chunk.js",
     "static/js/27.2163fce8.chunk.js": "/static/js/27.2163fce8.chunk.js",
+    "static/media/ngy.png": "/static/media/ngy.f9b26d1d8262c7e2ef7a.png",
     "static/media/2022-10-28_00-33-12.png": "/static/media/2022-10-28_00-33-12.a504d4374f2164e3a00a.png",
     "static/media/portfolio.png": "/static/media/portfolio.3e75c453f8567895d22c.png",
-    "static/media/The Latest resume 1998(1).pdf": "/static/media/The Latest resume 1998(1).10a9333f8d6ec275d952.pdf",
+    "static/media/Techie_Web_Developer_Resume26-01-2023.pdf": "/static/media/Techie_Web_Developer_Resume26-01-2023.0b10db5241cfdc0d73fd.pdf",
+    "static/media/trackhawk.png": "/static/media/trackhawk.d045ac017b3d02318faf.png",
     "static/media/home-main.svg": "/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
     "static/media/2022-10-28_00-15-36.png": "/static/media/2022-10-28_00-15-36.a7e5d10f6490cf5186cd.png",
@@ -19,6 +21,6 @@
   },
   "entrypoints": [
     "static/css/main.55aa5e72.css",
-    "static/js/main.03ef34b3.js"
+    "static/js/main.d9d07853.js"
   ]
 }
