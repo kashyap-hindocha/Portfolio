@@ -37,10 +37,10 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <img src={resume} alt="card-img" style={{'height': '250px', 'width': '500px', 'border': '2px solid gray'}}/>
+          <img src={resume} alt="card-img" style={{'height': 'auto', 'width': '500px', 'border': '2px solid gray'}}/>
         </Row>
 
-        <Row style={{ justifyContent: "center", position: "relative" }}>
+        {/* <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
             variant="primary"
             href={pdf}
@@ -50,7 +50,7 @@ function ResumeNew() {
             <AiOutlineDownload />
             &nbsp;Download full CV
           </Button>
-        </Row>
+        </Row> */}
       </Container>
     </div>
   );
