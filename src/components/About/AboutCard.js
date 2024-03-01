@@ -10,17 +10,17 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
             Hi Everyone, I am <span className="purple">Kashyap Hindocha </span>
             from <span className="purple"> Porbandar, India.</span>
-            <br />I am a web developer, Currently working for Crest Inforsystems, Surat based IT company.
+            <br />I am a Full stack web developer, Currently working for AIS Technolabs, Ahmedabad based IT company.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> Playing video Games
             </li>
             <li className="about-activity">
-              <ImPointRight /> Car Rides
+              <ImPointRight /> Riding
             </li>
             {/* <li className="about-activity">
               <ImPointRight /> Travelling

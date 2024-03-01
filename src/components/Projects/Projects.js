@@ -13,8 +13,23 @@ import salonbooking from "../../Assets/Projects/salonbooking.jpg";
 import zohomessenger from "../../Assets/Projects/zoho-messenger.jpg";
 import portfolio from "../../Assets/Projects/portfolio.png";
 import ShareMe from "../../Assets/Projects/2022-10-28_00-33-12.png";
+import REIT from '../../Assets/Projects/reit.jpg'
 
 function Projects() {
+
+  const AISProjectsList = [
+    {
+      'id': 1,
+      'title': 'ShareTide',
+      'description': 'A crowdfunding platform for investment as REIT, Additionally investor are allowed to trade with their property shares based on their investments on this platform.',
+      'imgPath': REIT,
+      'githubLink': '',
+      'demoLink': 'https://crowdfunding.aistechnolabs.pro',
+      'isBlog': false,
+      'isPersonal': false,
+      'role': "My responsibilities are develop and maintain Backend API's and Admin panel, Also I am responsible for implementing Trading algorithm on this platform."
+    }
+  ]
 
   const projectsList = [
     {
@@ -111,37 +126,37 @@ function Projects() {
     {
       'id': 1,
       'title': 'Chat-App',
-      'description': 'Real time chat using ReactJs, NodeJS, MongoDB and express.',
+      'description': 'Real time chat using MERN stack.',
       'imgPath': chat,
       'githubLink': 'https://github.com/kashyap-hindocha/chat-app',
-      'demoLink': 'https://quiet-caverns-00497.herokuapp.com',
+      'demoLink': 'https://chat-app-f7xv.onrender.com',
       'isBlog': false,
       'isPersonal': true,
       'role': '',
-      },
+    },
     {
       'id': 2,
-      'title': 'Portfolio',
+      'title': 'Portfolio (React-App)',
       'description': 'Portfolio app in reactJs.',
       'imgPath': portfolio,
       'githubLink': 'https://github.com/kashyap-hindocha/Portfolio',
-      'demoLink': '',
+      'demoLink': 'https://kashyap-hindocha.in',
       'isBlog': false,
       'isPersonal': true,
       'role': '',
-      },
-      {
-        'id': 3,
-        'title': 'ShareMe',
-        'description': 'New Style(Masonry Layout) Social media app in React(FE) + Sanity(BE).',
-        'imgPath': ShareMe,
-        'githubLink': '...',
-        'demoLink': 'https://shareme-kh.netlify.app',
-        'isBlog': false,
-        'isPersonal': true,
-        'role': '',
-        }
-    ];
+    },
+    {
+      'id': 3,
+      'title': 'ShareMe',
+      'description': 'New Style(Masonry Layout) Social media app in React(FE) + Sanity(BE).',
+      'imgPath': ShareMe,
+      'githubLink': '...',
+      'demoLink': 'https://shareme-kh.netlify.app',
+      'isBlog': false,
+      'isPersonal': true,
+      'role': '',
+    }
+  ];
 
   return (
     <Container fluid className="project-section">
@@ -151,10 +166,10 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Projects I've worked in (For Crest infosystems).
+          Projects contributions in (AIS Technolabs).
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          {projectsList.map((project) => 
+          {AISProjectsList.map((project) =>
             <Col md={4} className="project-card" key={project.id}>
               <ProjectCard
                 imgPath={project.imgPath}
@@ -162,7 +177,25 @@ function Projects() {
                 title={project.title}
                 description={project.description}
                 ghLink={project.githubLink}
-                demoLink={project.demoLink} 
+                demoLink={project.demoLink}
+                role={project.role}
+              />
+            </Col>
+          )}
+        </Row>
+        <p style={{ color: "white" }}>
+          Projects contributions in (Crest infosystems).
+        </p>
+        <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+          {projectsList.map((project) =>
+            <Col md={4} className="project-card" key={project.id}>
+              <ProjectCard
+                imgPath={project.imgPath}
+                isBlog={project.isBlog}
+                title={project.title}
+                description={project.description}
+                ghLink={project.githubLink}
+                demoLink={project.demoLink}
                 role={project.role}
               />
             </Col>
@@ -174,7 +207,7 @@ function Projects() {
           Practice <strong className="purple">projects</strong>
         </h1>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          {personalProjects.map((project) => 
+          {personalProjects.map((project) =>
             <Col md={4} className="project-card" key={project.id}>
               <ProjectCard
                 imgPath={project.imgPath}
@@ -182,7 +215,7 @@ function Projects() {
                 title={project.title}
                 description={project.description}
                 ghLink={project.githubLink}
-                demoLink={project.demoLink} 
+                demoLink={project.demoLink}
               />
             </Col>
           )}
