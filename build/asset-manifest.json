@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6fef8713.css",
+    "main.js": "/static/js/main.4b20badd.js",
+    "static/js/415.4d6acbeb.chunk.js": "/static/js/415.4d6acbeb.chunk.js",
+    "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
+    "static/media/ngy.png": "/static/media/ngy.f9b26d1d8262c7e2ef7a.png",
+    "static/media/2022-10-28_00-33-12.png": "/static/media/2022-10-28_00-33-12.a504d4374f2164e3a00a.png",
+    "static/media/portfolio.png": "/static/media/portfolio.3e75c453f8567895d22c.png",
+    "static/media/Techie_Web_Developer_Resume26-01-2023.pdf": "/static/media/Techie_Web_Developer_Resume26-01-2023.0b10db5241cfdc0d73fd.pdf",
+    "static/media/trackhawk.png": "/static/media/trackhawk.d045ac017b3d02318faf.png",
+    "static/media/home-main.svg": "/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/2022-10-28_00-15-36.png": "/static/media/2022-10-28_00-15-36.a7e5d10f6490cf5186cd.png",
+    "static/media/chat-app.png": "/static/media/chat-app.c0b3b180affcc3187493.png",
+    "static/media/zoho-messenger.jpg": "/static/media/zoho-messenger.c8d02778a49a415d0de3.jpg",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/avatar.svg": "/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
+    "static/media/pre.svg": "/static/media/pre.4410c5baaa673cc131da.svg",
+    "index.html": "/index.html",
+    "main.6fef8713.css.map": "/static/css/main.6fef8713.css.map",
+    "main.4b20badd.js.map": "/static/js/main.4b20badd.js.map",
+    "415.4d6acbeb.chunk.js.map": "/static/js/415.4d6acbeb.chunk.js.map",
+    "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6fef8713.css",
+    "static/js/main.4b20badd.js"
+  ]
+}
