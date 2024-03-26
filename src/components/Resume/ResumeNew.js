@@ -2,16 +2,12 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/../Assets/Techie_Web_Developer_Resume26-01-2023.pdf";
+import pdf from "../../Assets/Kashyap-hindocha-resume-26-03-2024.pdf";
 import resume from "../../Assets/2022-10-28_00-15-36.png";
 import { AiOutlineDownload } from "react-icons/ai";
-import { Document, Page, pdfjs } from "react-pdf";
+import { pdfjs } from "react-pdf";
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";
-import Card from "react-bootstrap/Card";
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
-
-const resumeLink =
-  "https://raw.githubusercontent.com/kashyap-hindocha/Portfolio/master/src/Assets/2022-10-28_00-15-36.png";
 
 function ResumeNew() {
   const [width, setWidth] = useState(1200);
@@ -37,7 +33,7 @@ function ResumeNew() {
         </Row>
 
         <Row className="resume">
-          <img src={resume} alt="card-img" style={{'height': 'auto', 'width': '500px', 'border': '2px solid gray'}}/>
+          <img src={resume} alt="card-img" style={{ 'height': 'auto', 'width': '500px', 'border': '2px solid gray' }} />
         </Row>
 
         {/* <Row style={{ justifyContent: "center", position: "relative" }}>
